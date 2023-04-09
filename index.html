@@ -22,10 +22,46 @@
    }
    .menu{
     display: flex;
+    flex-wrap: wrap;
+    transition-duration: 0.15;
+    transition-property: all;
+    font-weight: 700;
+    color: green;
+    flex-direction: row;
 
+    
+    
+   }
+   .card{
+    display: flex;
+    flex: 1 0 10%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
 
    }
+   .card-content{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center ;
 
+    
+   }
+
+   .images{
+    width: 100%;
+   }
+
+   .repipe_name{
+    margin-top: 10px;
+      
+    }
+    @media screen and (max-width:768px){
+      .card {
+        flex-basis: 45%;
+      }
+    }
   </style>
    
 </head>
@@ -37,22 +73,49 @@
   </div>
 
   <div class="menu">
-    <div class="image-dishes">
-      <div class="tofu">
-        
-
+    <div class="card">
+      <div class ="card-content">
+        <img class="images" src="images/tofu.webp" alt="tofu and mushroom">
+       <p class="recipe_name">Soy-Glazed Tofu and Mushrooms</p>
+      </div>
+    </div>      
+    
+    <div class="card">
+      <div class ="card-content">
+        <img class="images" src="images/tofu.webp" alt="tofu and mushroom">
+        <p class="recipe_name">Soy-Glazed Tofu and Mushrooms</p>
+      </div>
+    </div> 
+    
+    <div class="card">
+      <div class ="card-content">
+        <img class="images" src="images/tofu.webp" alt="tofu and mushroom">
+        <p class="recipe_name">Soy-Glazed Tofu and Mushrooms</p>
       </div>
     </div>
-
-    <div class="name-dishes">
-
+    <div class="card">
+      <div class ="card-content">
+        <img class="images" src="images/tofu.webp" alt="tofu and mushroom">
+        <p class="recipe_name">Soy-Glazed Tofu and Mushrooms</p>
+      </div>
     </div>
-    
-
+    <div class="card">
+      <div class ="card-content">
+        <img class="images" src="images/tofu.webp" alt="tofu and mushroom">
+        <p class="recipe_name">Soy-Glazed Tofu and Mushrooms</p>
+      </div>
+    </div> 
+    <div class="card">
+      <div class ="card-content">
+        <img class="images" src="images/tofu.webp" alt="tofu and mushroom">
+        <p class="recipe_name">Soy-Glazed Tofu and Mushrooms</p>
+      </div>
     </div>
-
   </div>
- 
+    
+   
+
+
 
  
 </body>
